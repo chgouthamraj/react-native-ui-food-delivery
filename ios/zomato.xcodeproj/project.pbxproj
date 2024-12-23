@@ -12,8 +12,14 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2C5D289023074647998BB200 /* Okra-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC559269066D4B57AAF309AE /* Okra-ExtraBold.ttf */; };
+		509E046086FB4F608BB019A4 /* Okra-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88E5F7433945CA89AF51EF /* Okra-Regular.ttf */; };
+		51E7E3E6778249E497DAF475 /* Okra-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F36CAB44366E45E18AD5E8CE /* Okra-Bold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-zomato-zomatoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-zomato-zomatoTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A3D32DC0E77745F3B4F3778C /* Okra-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CD2409B762C43499CA6D679 /* Okra-Medium.ttf */; };
+		C3B773E8F3444E08BC6BAB60 /* Okra-MediumLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F634D8EA823B4C06AD0DC8C7 /* Okra-MediumLight.ttf */; };
+		E63E703779D5BFC8AD47BCF2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +36,7 @@
 		00E356EE1AD99517003FC87E /* zomatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zomatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* zomatoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zomatoTests.m; sourceTree = "<group>"; };
+		0CD2409B762C43499CA6D679 /* Okra-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Okra-Medium.ttf"; path = "../src/assets/fonts/Okra-Medium.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* zomato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zomato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = zomato/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = zomato/AppDelegate.mm; sourceTree = "<group>"; };
@@ -41,10 +48,14 @@
 		3B4392A12AC88292D35C810B /* Pods-zomato.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zomato.debug.xcconfig"; path = "Target Support Files/Pods-zomato/Pods-zomato.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-zomato.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zomato.release.xcconfig"; path = "Target Support Files/Pods-zomato/Pods-zomato.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-zomato-zomatoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zomato-zomatoTests.debug.xcconfig"; path = "Target Support Files/Pods-zomato-zomatoTests/Pods-zomato-zomatoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C88E5F7433945CA89AF51EF /* Okra-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Okra-Regular.ttf"; path = "../src/assets/fonts/Okra-Regular.ttf"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-zomato.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zomato.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = zomato/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-zomato-zomatoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zomato-zomatoTests.release.xcconfig"; path = "Target Support Files/Pods-zomato-zomatoTests/Pods-zomato-zomatoTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC559269066D4B57AAF309AE /* Okra-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Okra-ExtraBold.ttf"; path = "../src/assets/fonts/Okra-ExtraBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F36CAB44366E45E18AD5E8CE /* Okra-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Okra-Bold.ttf"; path = "../src/assets/fonts/Okra-Bold.ttf"; sourceTree = "<group>"; };
+		F634D8EA823B4C06AD0DC8C7 /* Okra-MediumLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Okra-MediumLight.ttf"; path = "../src/assets/fonts/Okra-MediumLight.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +93,19 @@
 				00E356F11AD99517003FC87E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09428BF83E9147209AC6F42B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F36CAB44366E45E18AD5E8CE /* Okra-Bold.ttf */,
+				DC559269066D4B57AAF309AE /* Okra-ExtraBold.ttf */,
+				0CD2409B762C43499CA6D679 /* Okra-Medium.ttf */,
+				F634D8EA823B4C06AD0DC8C7 /* Okra-MediumLight.ttf */,
+				5C88E5F7433945CA89AF51EF /* Okra-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		13B07FAE1A68108700A75B9A /* zomato */ = {
@@ -124,6 +148,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				09428BF83E9147209AC6F42B /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -245,6 +270,12 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				51E7E3E6778249E497DAF475 /* Okra-Bold.ttf in Resources */,
+				2C5D289023074647998BB200 /* Okra-ExtraBold.ttf in Resources */,
+				A3D32DC0E77745F3B4F3778C /* Okra-Medium.ttf in Resources */,
+				C3B773E8F3444E08BC6BAB60 /* Okra-MediumLight.ttf in Resources */,
+				509E046086FB4F608BB019A4 /* Okra-Regular.ttf in Resources */,
+				E63E703779D5BFC8AD47BCF2 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,7 +615,14 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -649,7 +687,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
