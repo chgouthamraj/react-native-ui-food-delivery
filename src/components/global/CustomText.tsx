@@ -14,7 +14,7 @@ interface CustomTextProps {
     children?: React.ReactNode;
     numberOfLines?: number;
     FontSize?: number;
-    onLayout: (event: any) => void;
+    onLayout?: (event: any) => void;
 }
 
 const fontSizeMap: Record<Variant, Record<PlatformType, number>> = {
@@ -65,13 +65,16 @@ const CustomText: React.FC<CustomTextProps> = ({
             {children}
         </Text>
     )
-}
+};
 
-export default CustomText;
 
 const styles = StyleSheet.create({
     text: {
         textAlign: 'left'
     }
 })
+
+export default CustomText;
+
+
 
